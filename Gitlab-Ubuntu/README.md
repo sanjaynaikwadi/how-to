@@ -1,7 +1,7 @@
 # How to intall GitLab CE on Ubuntu 18.0.4
 
-### Tested enviornment
-- Google cloud
+### Enviornment
+- Google cloud instance
 - Ubuntu 18.0.4 LTS version
 - Instance 2 vcpu + 7.5 GB Ram recommended
 - Storage disk atleat 50GB recommended
@@ -62,7 +62,7 @@ Reconfigure the gitlab
 sudo gitlab-ctl reconfigure
 ```
 
-** NOTE ** - Make sure you make the proper entry in you DNS to point to gitlab URL whatever you would be setting or else your letencrypt will fail.
+`NOTE` - Make sure you make the proper entry in you DNS to point to gitlab URL whatever you would be setting or else your letsencrypt will fail.
 
 ### Configuration Through the Web Interface
 
